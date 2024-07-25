@@ -100,12 +100,6 @@ Configurar layout de três colunas
     margin: 0 0 20px 195px;
 }
 
-#tres-colunas #primario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-}
-
 #duas-colunas #primario {
     width: 555px;
 }
@@ -159,8 +153,93 @@ Formatar menus laterais
 }
 
 #lateral ul a:hover {
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
     color: #a1a1a1;
 }
+
+/*
+Formatando formulários
+*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/*
+Formatando imagens
+*/
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*
+Formatando os cabeçalhos
+*/
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+}
+
+/*
+Formatando lista de notícias
+*/
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a h3 {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a h3 {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a p {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
 
 /*
 Rodapé
