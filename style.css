@@ -145,6 +145,24 @@ h2 {
 }
 
 /*
+Formatar menus laterais
+*/
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+}
+
+/*
 Rodapé
 */
 
